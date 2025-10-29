@@ -42,21 +42,24 @@ export default function Index() {
           <Text className="text-white">Error: {movieError?.message}</Text>
         ) : (
           <View className="flex-1 mt-5">
-            <SearchBar onPress={() => router.push("/search")} placeholder={"Search for movie"} />
+            <SearchBar
+              onPress={() => router.push("/search")}
+              placeholder={"Search for movie"} value={""}
+            />
 
             <Text className="text-lg text-white font-bold mt-5 mb-3">Latest Movies</Text>
 
             <FlatList
               data={movies}
-              renderItem={({ item }) =>( <MovieCard {...item}/>)}
+              renderItem={({ item }) => (<MovieCard {...item} />)}
               keyExtractor={(item) => item.imdbID}
               scrollEnabled={false}
               numColumns={3}
               columnWrapperStyle={{
                 justifyContent: "flex-start",
-                gap:20,
-                paddingRight:5,
-                marginBottom:10
+                gap: 20,
+                paddingRight: 5,
+                marginBottom: 10
               }}
               className="mt-2 pb-32 -ml-2"
               nestedScrollEnabled={false}

@@ -51,3 +51,25 @@ interface TrendingCardProps {
   movie: TrendingMovie;
   index: number;
 }
+
+export interface User {
+  id: string;
+  name: string;
+  username: string;
+  email: string;
+  avatar: string;
+  bio?: string;
+  joinedAt: string;
+  stats: {
+    moviesWatched: number;
+    favorites: number;
+    reviews: number;
+  };
+  watchlist: {
+    id: string;
+    title: string;
+    poster: string;
+    year: string;
+    type: "movie" | "series" | "episode";
+  }[];
+}

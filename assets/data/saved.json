@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "imdbId": "tt1375666",
+        "title": "Inception",
+        "year": "2010",
+        "genre": "Action, Sci-Fi",
+        "poster": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRRyuWmayVBvqjd1MxTKpRgauq2cCtUzb7Q9QvaFTkAuxAU_EYMoCE3wBuJeftxIzf0grreIw",
+        "rating": "8.8"
+    },
+    {
+        "id": 2,
+        "imdbId": "tt0816692",
+        "title": "Interstellar",
+        "year": "2014",
+        "genre": "Adventure, Drama, Sci-Fi",
+        "poster": "https://image.tmdb.org/t/p/w500/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
+        "rating": "8.6"
+    },
+    {
+        "id": 3,
+        "imdbId": "tt0468569",
+        "title": "The Dark Knight",
+        "year": "2008",
+        "genre": "Action, Crime, Drama",
+        "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        "rating": "9.0"
+    },
+    {
+        "id": 4,
+        "imdbId": "tt0137523",
+        "title": "Fight Club",
+        "year": "1999",
+        "genre": "Drama",
+        "poster": "https://image.tmdb.org/t/p/w500/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg",
+        "rating": "8.8"
+    },
+    {
+        "id": 5,
+        "imdbId": "tt0110912",
+        "title": "Pulp Fiction",
+        "year": "1994",
+        "genre": "Crime, Drama",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj6_ot-pRVfLMtc2vyguVf_0m0HUuvdBw2I-EuFXkUIEB_eoAS",
+        "rating": "8.9"
+    },
+    {
+        "id": 6,
+        "imdbId": "tt0111161",
+        "title": "The Shawshank Redemption",
+        "year": "1994",
+        "genre": "Drama",
+        "poster": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+        "rating": "9.3"
+    },
+    {
+        "id": 7,
+        "imdbId": "tt0068646",
+        "title": "The Godfather",
+        "year": "1972",
+        "genre": "Crime, Drama",
+        "poster": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+        "rating": "9.2"
+    },
+    {
+        "id": 8,
+        "imdbId": "tt0133093",
+        "title": "The Matrix",
+        "year": "1999",
+        "genre": "Action, Sci-Fi",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjAxYjkxNjktYTU0YS00NjFhLWIyMDEtMzEzMTJjMzRkMzQ1XkEyXkFqcGc@._V1_.jpg",
+        "rating": "8.7"
+    },
+    {
+        "id": 9,
+        "imdbId": "tt0172495",
+        "title": "Gladiator",
+        "year": "2000",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+        "rating": "8.5"
+    },
+    {
+        "id": 10,
+        "imdbId": "tt0167260",
+        "title": "The Lord of the Rings: The Return of the King",
+        "year": "2003",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+        "rating": "8.9"
+    }
+]

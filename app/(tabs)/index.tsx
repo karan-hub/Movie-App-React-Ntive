@@ -19,7 +19,6 @@ export default function Index() {
 
   trendingMovies?.forEach((movie) => console.log(movie.count));
 
-
   const {
     data: movies,
     loading: moviesLoading,

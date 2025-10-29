@@ -1,0 +1,35 @@
+{
+  "username": "@jitu4143",
+  "email": "karan.chavan@example.com",
+  "stats": {
+    "moviesWatched": 57,
+    "favorites": 13,
+    "reviews": 8
+  },
+  "watchlist": [
+    {
+      "id": "tt1160419",
+      "imdbID": "tt1160419",
+      "title": "Dune: Part One",
+      "poster": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSt7xlJEzb-xopDqcQ6iw9SbY8PAlJN8H7DYUzTqmZkwLT9o8JXv6YWvDMGRKwkyRnf6RHzGg",
+      "year": "2021",
+      "type": "movie"
+    },
+    {
+      "id": "tt7286456",
+      "imdbID": "tt7286456",
+      "title": "Joker",
+      "poster": "https://media.wired.com/photos/599dcfe8d6c80105bd749ea7/3:2/w_2560%2Cc_limit/joker-TA.jpg",
+      "year": "2019",
+      "type": "movie"
+    },
+    {
+      "id": "tt4154796",
+      "imdbID": "tt4154796",
+      "title": "Avengers: Endgame",
+      "poster": "https://images.wallpapersden.com/image/download/8k-avengers-endgame-poster_64292_7680x4320.jpg",
+      "year": "2019",
+      "type": "movie"
+    }
+  ]
+}

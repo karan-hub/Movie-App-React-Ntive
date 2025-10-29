@@ -17,6 +17,7 @@ const MoviesDetails = () => {
   const DEFAULT_POSTER =
     "https://image.tmdb.org/t/p/w500/8YFL5QQVPy3AgrEQxNYVSgiPEbe.jpg";
   const { id } = useLocalSearchParams();
+  
   const { data: movie, loading } = useFetch(() => fetchMovieDetails(id as string));
 
   if (loading)

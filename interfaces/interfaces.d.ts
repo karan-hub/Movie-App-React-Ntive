@@ -2,8 +2,9 @@
 export interface Movie {
   Poster: string;
   Title: string;
-  Type: "movie" | "series" | "episode"; // OMDb can return these types
-  Year: string;
+  Type?: "movie" | "series" | "episode"; // OMDb can return these types
+  Year?: string;
+  rating?: number;
   imdbID: string;
 }
 
@@ -13,7 +14,7 @@ interface TrendingMovie {
   movie_id: number;
   title: string;
   count: number;
-  poster_url: string;
+  poster: string;
 }
 
 interface MovieDetails {
